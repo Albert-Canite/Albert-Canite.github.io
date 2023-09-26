@@ -4,13 +4,15 @@ layout: page
 
 # About Me
 
+<br>
+
 <img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic" width="300" height="300">
 
 Here is **Zhican Zhou (Albert, 周郅璨)**.
 
 <br>
 
-Zhican is a devoted student of **physics** with a passion for perpetual learning and exploration. Currently, he is pursuing his Ph.D. at **[Integrated Photonics Laboratory (IPL)](https://cemse.kaust.edu.sa/ipl)** under the supervision of **[Prof. Yating Wan](https://scholar.google.com/citations?user=uJ6__ScAAAAJ&hl=en&oi=ao)** at King Abdullah University of Science and Technology (KAUST).
+Zhican is a devoted student of **physics** with a passion for perpetual learning and exploration. Currently, he is pursuing his Ph.D. at **[Integrated Photonics Laboratory (IPL)](https://cemse.kaust.edu.sa/ipl)** under the supervision of [Prof. Yating Wan](https://scholar.google.com/citations?user=uJ6__ScAAAAJ&hl=en&oi=ao) at King Abdullah University of Science and Technology (KAUST).
 
 <br>
 
