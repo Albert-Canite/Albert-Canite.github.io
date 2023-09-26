@@ -8,13 +8,19 @@ layout: page
 
 Here is **Zhican Zhou (Albert, 周郅璨)**.
 
+<br>
+
 Zhican is a devoted student of **physics** with a passion for perpetual learning and exploration. Currently, he is pursuing his Ph.D. at **[Integrated Photonics Laboratory (IPL)](https://cemse.kaust.edu.sa/ipl)** under the supervision of **[Prof. Yating Wan](https://scholar.google.com/citations?user=uJ6__ScAAAAJ&hl=en&oi=ao)** at King Abdullah University of Science and Technology (KAUST).
 
-Access my CV [here](https://albert-canite.github.io/file/zhicanzhou-CV.pdf)
+<br>
+
+**| Access my CV [here](https://albert-canite.github.io/file/zhicanzhou-CV.pdf) |**
 
 ---
 ## Research Interest
+
 <br>
+
 Zhican's research interest is primarily focused on the development of on-chip III-V laser and integrated heterogeneous computing
 system (e.g., optical/memristor A.I. accelerator hardware).
 
