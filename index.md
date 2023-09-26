@@ -16,7 +16,7 @@ Zhican is a devoted student of **physics** with a passion for perpetual learning
 
 <br>
 
-**|Access my CV [here](https://albert-canite.github.io/file/zhicanzhou-CV.pdf)|**
+Kindly access my CV [**| here |**](https://albert-canite.github.io/file/zhicanzhou-CV.pdf)
 
 ---
 ## Research Interest
@@ -28,7 +28,7 @@ system (e.g., optical/memristor A.I. accelerator hardware).
 
 <br>
 
-If you are interested in my works, please feel free to book an [**| online talk with me |**](https://calendly.com/lancecai/meet-with-lance).
+If you are interested in my current projects, please feel free to book an [**| online talk with me |**](https://calendly.com/lancecai/meet-with-lance).
 <br>
 
 ---
