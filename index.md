@@ -10,14 +10,14 @@ Here is **Zhican Zhou (Albert, 周郅璨)**.
 
 Zhican is a devoted student of **physics** with a passion for perpetual learning and exploration. Currently, he is pursuing his Ph.D. at **[Integrated Photonics Laboratory (IPL)](https://cemse.kaust.edu.sa/ipl)** under the supervision of **[Prof. Yating Wan](https://scholar.google.com/citations?user=uJ6__ScAAAAJ&hl=en&oi=ao)** at King Abdullah University of Science and Technology (KAUST).
 
-Access my CV **[| click here |](https://albert-canite.github.io/file/zhicanzhou-CV)**
+Access my CV [| click here |](https://albert-canite.github.io/file/zhicanzhou-CV.pdf)
 
 ---
 ## Research Interest
-
+<br>
 Zhican's research interest is primarily focused on the development of on-chip III-V laser and integrated heterogeneous computing
 system (e.g., optical/memristor A.I. accelerator hardware).
-
+<br>
 If you are interested in my works, please feel free to book an [**| online talk with me |**](https://calendly.com/lancecai/meet-with-lance).
 <br>
 
@@ -25,6 +25,7 @@ If you are interested in my works, please feel free to book an [**| online talk 
 
 ## Latest News
 
+<br>
 **- Sep. 2023 -**
 
 Congratulations to our project titled <span style="font-style: italic;">"Fast and Energy-efficient Photonic Integrated Circuits Powered by Quantum Dot Lasers for Artificial Intelligence Models"</span> for successfully securing $200k from the KAUST-Opportunity Fund Program (OFP). Technical specifics were fully completed by Zhican, who is appointed as the principal student responsible for managing and implementing the project.
