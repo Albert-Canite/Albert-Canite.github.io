@@ -16,7 +16,7 @@ Zhican is a devoted student of **physics** with a passion for perpetual learning
 
 <br>
 
-Kindly access my CV [**| here |**](https://albert-canite.github.io/file/zhicanzhou-CV.pdf)
+Kindly access my CV [here](https://albert-canite.github.io/file/zhicanzhou-CV.pdf)
 
 ---
 ## Research Interest
