@@ -12,7 +12,7 @@ title: Biography
 
 <img src="https://albert-canite.github.io/images/KAUST.png" class="floatpic_l" width="60" height="60">
 
-* Ph.D. candidate, Integrated Photonics Lab
+* 1Ph.D. candidate, Integrated Photonics Lab
 * **King Abdullah University of Science and Technology**, Sep. 2022 - Now
 * Supervisor: Prof. Yating Wan
   
