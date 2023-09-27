@@ -14,7 +14,7 @@ title: Biography
 
 <br>
 
-* 3Ph.D. candidate, Integrated Photonics Lab
+* Ph.D. candidate, Integrated Photonics Lab
 * **King Abdullah University of Science and Technology**, Sep. 2022 - Now
 * Supervisor: Prof. Yating Wan
   
