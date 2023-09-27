@@ -7,7 +7,7 @@ title: Biography
 ## Biography
 
 ---
-<img src="https://albert-canite.github.io/images/KAUST.png" class="floatpic" width="80" height="80" >
+<img src="https://albert-canite.github.io/images/KAUST.png" class="floatpic_l" width="100" height="100">
 
 * Ph.D. candidate, Integrated Photonics Lab
 * **King Abdullah University of Science and Technology**, Sep. 2022 - Now
@@ -17,9 +17,9 @@ title: Biography
 
 <img src="https://albert-canite.github.io/images/KAUST.png" class="floatpic_l" width="100" height="100">
 
-* Joint cultivation program, Key Laboratory of Nanosystem and Hierarchical Fabrication
-* **National Center for Nanoscience and Technology**, Sep. 2020 - Jun. 2022
-* Supervisor: Prof. Qian Liu
+Joint cultivation program, Key Laboratory of Nanosystem and Hierarchical Fabrication
+**National Center for Nanoscience and Technology**, Sep. 2020 - Jun. 2022
+Supervisor: Prof. Qian Liu
 
 <br>
 
