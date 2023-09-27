@@ -35,19 +35,19 @@ If you are securing potential collaborations or interested in the ongoing projec
 
 - **Sep. 2023**
 
-Congratulations to our project titled <span style="font-style: italic;">"Fast and Energy-efficient Photonic Integrated Circuits Powered by Quantum Dot Lasers for Artificial Intelligence Models"</span> for successfully securing $200k from the KAUST-Opportunity Fund Program (OFP). Technical specifics were fully completed by Zhican, who is appointed as the principal student responsible for managing and implementing the project.
+Congratulations to our project titled _"Fast and Energy-efficient Photonic Integrated Circuits Powered by Quantum Dot Lasers for Artificial Intelligence Models"_ for successfully securing $200k from the KAUST-Opportunity Fund Program (OFP). Technical specifics were fully completed by Zhican, who is appointed as the principal student responsible for managing and implementing the project.
 
 <br>
 
 - **Jul. 2023** 
 
-Congratulations to our project <span style="font-style: italic;">Optoelectronic Hardware Acceleration for Variational Autoencoder"</span>  for obtaining $50k in support from the [Saudi Center of Excellence in Data Science and Artificial Intelligence (SDAIA)](https://sdaia.gov.sa/en/default.aspx). Zhican will serve as the student leader of the program.
+Congratulations to our project _"Optoelectronic Hardware Acceleration for Variational Autoencoder"_ for obtaining $50k in support from the [Saudi Center of Excellence in Data Science and Artificial Intelligence (SDAIA)](https://sdaia.gov.sa/en/default.aspx). Zhican serves as the student leader of the program.
 
 <br>
 
 - **Apr. 2023**
 
-[KAUST-Semiconductor Photonics Workshop (SPW)](https://cemse.kaust.edu.sa/ipl/news/semiconductor-photonics-workshop-2023-0) was successfully held and Zhican participated in organizing the event.
+[KAUST-Semiconductor Photonics Workshop (SPW)](https://cemse.kaust.edu.sa/ipl/news/semiconductor-photonics-workshop-2023-0) was successfully held where Zhican was participated in organizing the whole event.
 
 <br>
 
