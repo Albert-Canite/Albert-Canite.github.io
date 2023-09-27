@@ -7,12 +7,16 @@ title: Biography
 ## Biography
 
 ---
+
+<br>
+
 <img src="https://albert-canite.github.io/images/KAUST.png" class="floatpic_l" width="60" height="60">
 
 * Ph.D. candidate, Integrated Photonics Lab
 * **King Abdullah University of Science and Technology**, Sep. 2022 - Now
 * Supervisor: Prof. Yating Wan
   
+<br>
 <br>
 
 <img src="https://albert-canite.github.io/images/cas.png" class="floatpic_l" width="60" height="60">
@@ -22,6 +26,7 @@ title: Biography
 * Supervisor: Prof. Qian Liu
 
 <br>
+<br>
 
 <img src="https://albert-canite.github.io/images/nankai.png" class="floatpic_l" width="60" height="60">
 
@@ -29,6 +34,7 @@ title: Biography
 * **Nankai University**, Sep. 2019 - Jun. 2022
 * Supervisor: Prof. Xinzheng Zhang
 
+<br>
 <br>
 
 <img src="https://albert-canite.github.io/images/chongqing.png" class="floatpic_l" width="60" height="60">
