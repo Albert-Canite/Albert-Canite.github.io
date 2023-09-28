@@ -8,9 +8,10 @@ title: Publications
 
 
 # Publications
+Lastest Update: 27th Sep 2023
 
 ---
-Lastest Update: 27th Sep 2023&nbsp; 
+<br>
 <br>
 
 ## Peer-reviewed Articles
@@ -52,7 +53,7 @@ Lastest Update: 27th Sep 2023&nbsp;
 ## Graduation Thesis
 
 - **Master thesis:** Research on logic computing of single-atomic-layer MoS2 memristor devices (Chinese). Completed in 2022, kindly download the full-text [[here]](https://albert-canite.github.io/file/Master_thesis.pdf).
-  
+   <br>
   <br>
 - **Bachelor thesis:** Research on laser processing gray-scale mask and mechanism (Chinese). Completed in 2019, kindly download the full-text [[here]](https://albert-canite.github.io/file/Bachelor_thesis.pdf).
   <br>
