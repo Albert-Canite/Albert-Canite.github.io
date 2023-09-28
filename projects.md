@@ -15,7 +15,7 @@ The goal of our research is to explore and build the next-generation hardware ba
 
 1. **A.I./Machine learning hardware accelerators based on emerging devices.**
 
-<img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="300" height="300">
+<img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="1000" height="500">
 
 <br>
 
