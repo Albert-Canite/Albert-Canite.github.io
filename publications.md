@@ -8,11 +8,8 @@ title: Publications
 
 
 # Publications
-
----
 Lastest Update: 27th Sep 2023
 
-<br>
 <br>
 
 ## Peer-reviewed Articles
