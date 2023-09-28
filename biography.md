@@ -4,7 +4,7 @@ permalink: /biography/index.html
 title: Biography
 ---
 
-## Biography
+# Biography
 
 ---
 
