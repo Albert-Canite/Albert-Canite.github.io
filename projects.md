@@ -7,6 +7,7 @@ title: Projects
 # Projects
 
 ---
+<br>
 
 The goal of our research is to explore and build the next-generation hardware based on post-CMOS emerging devices, e.g. memristors. From top-down, we examine the existing algorithms and determine the most crucial task to accelerate with our hardware. Examples include but not limited to matrix multiplication in A.I./machine learning tasks. In the meanwhile, we optimize and characterize the device performance, including their nonlinear dynamics, and build novel circuit/architecture/algorithm from bottom up.
 
