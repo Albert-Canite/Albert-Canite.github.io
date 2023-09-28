@@ -13,7 +13,7 @@ The goal of our research is to explore and build the next-generation hardware ba
 
 <br>
 
-1. **A.I./Machine learning hardware accelerators based on emerging devices.**
+- **A.I./Machine learning hardware accelerators based on emerging devices.**
 
 <img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="1000" height="500">
 
@@ -21,7 +21,9 @@ The goal of our research is to explore and build the next-generation hardware ba
 
 From the system-level, we plan to develop PICs with on-chip lasers for applications of communications and interconnects, OPA-based LiDAR, Bio-chemical sensors, quantum information processing and optical computing, etc.
 
-2. **Emerging materials for new devices**
+<br>
+
+- **Emerging materials for new devices**
 
 <img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="300" height="300">
 
@@ -29,9 +31,11 @@ From the system-level, we plan to develop PICs with on-chip lasers for applicati
 
 From the system-level, we plan to develop PICs with on-chip lasers for applications of communications and interconnects, OPA-based LiDAR, Bio-chemical sensors, quantum information processing and optical computing, etc.
 
-3. **Emerging materials for new devices**
+<br>
 
-<img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="300" height="300">
+- **Emerging materials for new devices**
+
+<img src="https://albert-canite.github.io/images/project3.png" class="floatpic_c" width="1000" height="500">
 
 <br>
 
