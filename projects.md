@@ -9,45 +9,31 @@ title: Projects
 ---
 <br>
 
-The goal of our research is to explore and build the next-generation hardware based on post-CMOS emerging devices, e.g. memristors. From top-down, we examine the existing algorithms and determine the most crucial task to accelerate with our hardware. Examples include but not limited to matrix multiplication in A.I./machine learning tasks. In the meanwhile, we optimize and characterize the device performance, including their nonlinear dynamics, and build novel circuit/architecture/algorithm from bottom up.
-
+Given the burgeoning computational demands stemming from advancements in Artificial Intelligence (AI), my research is strategically poised to investigate and develop cutting-edge hardware systems designed to accelerate AI computing. 
+The main topics primarily include three areas: 1. Software-hardware co-design for optical neural network (ONN) computing systems (_On-going_). 2.Development of memristor-driven logic computing systems based on emerging two-dimensional materials (_Published, securing new collaboration opportunities_). 3. On-chip laser integration process and system-level applications incorporating with optical computing components.  
 <br>
 
-- **A.I./Machine learning hardware accelerators based on emerging devices.**
+- **Software-hardware co-design for optical neural network (ONN) computing systems**
 
 <img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="1000" height="500">
 
 <br>
 
-From the system-level, we plan to develop PICs with on-chip lasers for applications of communications and interconnects, OPA-based LiDAR, Bio-chemical sensors, quantum information processing and optical computing, etc.
-
 <br>
 
-- **Emerging materials for new devices**
+
+- **Development of memristor-driven logic computing systems based on emerging two-dimensional materials**
 
 <img src="https://albert-canite.github.io/images/project2.png" class="floatpic_c" width="1000" height="500">
 
 <br>
 
-From the system-level, we plan to develop PICs with on-chip lasers for applications of communications and interconnects, OPA-based LiDAR, Bio-chemical sensors, quantum information processing and optical computing, etc.
-
 <br>
 
-- **Emerging materials for new devices**
+- **3. On-chip laser integration process and system-level applications incorporating with optical computing components**
 
 <img src="https://albert-canite.github.io/images/project3.png" class="floatpic_c" width="1000" height="500">
 
 <br>
-
-From the system-level, we plan to develop PICs with on-chip lasers for applications of communications and interconnects, OPA-based LiDAR, Bio-chemical sensors, quantum information processing and optical computing, etc.
-
-<br>
-
----
-## Leave a Message
-
-<br>
-
-{% include disqus.html %} 
 
 <br>
