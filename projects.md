@@ -25,7 +25,7 @@ From the system-level, we plan to develop PICs with on-chip lasers for applicati
 
 - **Emerging materials for new devices**
 
-<img src="https://albert-canite.github.io/images/project1.png" class="floatpic_c" width="300" height="300">
+<img src="https://albert-canite.github.io/images/project2.png" class="floatpic_c" width="1000" height="500">
 
 <br>
 
