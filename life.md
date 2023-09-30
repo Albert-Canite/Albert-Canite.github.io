@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /hobbies/index.html
-title: Hobbies
+permalink: /life/index.html
+title: Life
 ---
 
 # Life
@@ -31,13 +31,11 @@ Zhican shares his personal works to the open source site **Unsplash**, kindly fe
 
 <br>
 
-Zhican writes popular science articles in his free moments. He loves to present knowledge in an engaging way and has contributed numerous well-received articles to Scientific American (Chinese Edition) during his internship, capturing over 200k media views. His work is a testament to his passion for sharing the marvels of science in a form that's accessible and interesting to all. 
+Zhican writes popular science articles in his free moments. He loves to present knowledge in an engaging way and has contributed numerous well-received articles to **_Scientific American (Chinese Edition)_** during his internship, capturing over 200k views on social medias. His work is a testament to his passion for sharing the marvels of science in a form that's accessible and interesting to all. 
 
 <br>
 
-For friends who share a similar curiosity, feel free to explore his captivating pieces (in Chinese):
-
-<br>
+For who may share a similar curiosity, feel free to read his articles (in Chinese):
 
 - [网络看病，为什么总是癌症起步？](https://mp.weixin.qq.com/s/NxvrjEHaESggdkq5_oF5Fg)
 - [爱TA，就把TA的骨灰做成钻石戴手上？这种殡葬方式你接受吗](https://mp.weixin.qq.com/s/rgBCgtaHtgkRcn-oBwgr0Q)
