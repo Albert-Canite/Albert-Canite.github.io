@@ -31,7 +31,7 @@ Zhican shares his personal works to the open source site **Unsplash**, kindly fe
 
 <br>
 
-Zhican writes popular science articles in his free moments. He loves to present knowledge in an engaging way and has contributed numerous well-received articles to Scientific American (Chinese Edition) during his internship, capturing the fascination of readers. His work is a testament to his passion for sharing the marvels of science in a form that's accessible and interesting to all. 
+Zhican writes popular science articles in his free moments. He loves to present knowledge in an engaging way and has contributed numerous well-received articles to Scientific American (Chinese Edition) during his internship, capturing over 200k media views. His work is a testament to his passion for sharing the marvels of science in a form that's accessible and interesting to all. 
 
 <br>
 
