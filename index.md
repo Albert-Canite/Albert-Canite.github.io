@@ -23,7 +23,7 @@ system (e.g., optical/memristor A.I. accelerator hardware).
 
 <br>
 
-If you are securing potential collaborations or interested in the ongoing projects, please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [| online talk |](https://calendly.com/zhican_zhou/30min) (Powered by calendly).
+If you are securing potential collaborations or interested in the ongoing projects, please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [| online talk |](https://calendly.com/zhican_zhou/30min).
 
 ---
 
