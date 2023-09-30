@@ -4,9 +4,7 @@ layout: page
 
 # About Me
 
-<br>
-
-<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic" width="300" height="300">
+<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic" width="350" height="350">
 
 <br>
 
