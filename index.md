@@ -4,6 +4,8 @@ layout: page
 
 # About Me
 
+<br>
+
 <img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic" width="300" height="300">
 
 <br>
@@ -13,6 +15,8 @@ Greetings and welcome to this website! Here is built by **Zhican Zhou (Albert, å
 <br>
 
 Zhican is a devoted student of **physics** with a passion for perpetual learning and exploration. He is currently pursuing his Ph.D. at **[Integrated Photonics Laboratory (IPL)](https://cemse.kaust.edu.sa/ipl)** advised by [Prof. Yating Wan](https://scholar.google.com/citations?user=uJ6__ScAAAAJ&hl=en&oi=ao) at King Abdullah University of Science and Technology (KAUST). Kindly access Zhican's CV [[here]](https://albert-canite.github.io/file/zhicanzhou-CV.pdf).
+
+<br>
 
 ---
 ## Research Interest
@@ -26,6 +30,8 @@ system (e.g., optical/memristor A.I. accelerator hardware).
 
 If you are securing potential collaborations or interested in the ongoing projects, 
 please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [| online talk |](https://calendly.com/zhican_zhou/30min) (powered by Calendly).
+
+<br>
 
 ---
 
