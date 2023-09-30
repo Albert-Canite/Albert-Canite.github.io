@@ -30,7 +30,7 @@ The main topics primarily include three areas: 1. Software-hardware co-design fo
 
 <br>
 
-- **3. On-chip laser integration process and system-level applications incorporating with optical computing components**
+- **On-chip laser integration process and system-level applications incorporating with optical computing components**
 
 <img src="https://albert-canite.github.io/images/project3.png" class="floatpic_c" width="1000" height="500">
 
