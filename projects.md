@@ -9,7 +9,7 @@ title: Projects
 ---
 <br>
 
-Given the burgeoning computational demands stemming from advancements in Artificial Intelligence (AI), my research is strategically poised to investigate and develop cutting-edge hardware systems designed to accelerate AI computing. 
+Given the burgeoning computational demands stemming from advancements in Artificial Intelligence (AI), our research goal is strategically poised to investigate and develop cutting-edge hardware systems designed to accelerate AI computing. 
 The main topics primarily include three areas: 1. Software-hardware co-design for optical neural network (ONN) computing systems (_On-going_). 2.Development of memristor-driven logic computing systems based on emerging two-dimensional materials (_Published, securing new collaboration opportunities_). 3. On-chip laser integration process and system-level applications incorporating with optical computing components.  
 <br>
 
