@@ -21,11 +21,8 @@ Zhican is a devoted student of **physics** with a passion for perpetual learning
 Zhican's research interest is primarily focused on the development of on-chip III-V laser and integrated heterogeneous computing
 system (e.g., optical/memristor A.I. accelerator hardware).
 
-<br>
-
-If you are securing potential collaborations or interested in the ongoing projects, please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an **[| online talk |](https://calendly.com/zhican_zhou/30min)** (powered by Calendly).
-
-<br>
+If you are securing potential collaborations or interested in the ongoing projects, 
+please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [| online talk |](https://calendly.com/zhican_zhou/30min) (powered by Calendly).
 
 ---
 
