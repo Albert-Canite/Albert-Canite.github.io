@@ -15,8 +15,6 @@ Embarking on a journey of scientific research is a pursuit laden with both excit
 
 ## Photography
 
-<br>
-
 <img src="https://albert-canite.github.io/images/photo.jpg" class="floatpic_c" width="1000" height="800">
 
 <br>
@@ -31,21 +29,23 @@ Zhican shares his personal works to the open source site **Unsplash**, kindly fe
 
 ## Science Popularizing
 
+<br>
 
-<br>Swimming removes my worries, refreshes my body, and brings me courage to address any challenges. I extremely enjoy the feeling of being immersed in the water. Besides, I am a member of the Swimming Team at Fuzhou University, where I meet many sincere friends. I have reached **China National Second-level athlete Standard** in 50m breaststroke and won **Five Gold Medals** during my swimming career. Recently, I am also keen on surfing.
-
-- link1
+Zhican writes popular science articles in his free moments. He loves to present knowledge in an engaging way and has contributed numerous well-received articles to Scientific American (Chinese Edition) during his internship, capturing the fascination of readers. His work is a testament to his passion for sharing the marvels of science in a form that's accessible and interesting to all. 
 
 <br>
 
-- link2
+For friends who share a similar curiosity, feel free to explore his captivating pieces (in Chinese):
 
 <br>
 
-- link3
+- [网络看病，为什么总是癌症起步？](https://mp.weixin.qq.com/s/NxvrjEHaESggdkq5_oF5Fg)
+- [爱TA，就把TA的骨灰做成钻石戴手上？这种殡葬方式你接受吗](https://mp.weixin.qq.com/s/rgBCgtaHtgkRcn-oBwgr0Q)
+- [不是科幻，也不是二次元！断头真的可以重生](https://mp.weixin.qq.com/s/pMUpv2hJxeVqwp3R3Xi8tA)
+- [最 白 的 白 有 多 白](https://mp.weixin.qq.com/s/iX4uT_09JzrFVXUbtulp9A)
+- [塑料污染的终极难题终于有救了！最快2天，让塑料彻底消失](https://mp.weixin.qq.com/s/Wf0aX5VdVYSsEtWZw8f3fg)
 
 <br>
-
 
 ## Leave a Message
 

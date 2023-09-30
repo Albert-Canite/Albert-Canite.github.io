@@ -11,7 +11,7 @@ title: Publications
 
 ---
 
-Lastest Update: 27th Sep. 2023 | Full list on [[Google Scholar]](https://scholar.google.com/citations?user=KL0TOlEAAAAJ&hl=en&authuser=1)
+Lastest Update: 27th Sep. 2023, check full list on [[Google Scholar]](https://scholar.google.com/citations?user=KL0TOlEAAAAJ&hl=en&authuser=1)
 
 <br>
 
