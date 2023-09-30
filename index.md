@@ -4,8 +4,6 @@ layout: page
 
 # About Me
 
-<br>
-
 <img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic" width="300" height="300">
 
 <br>Greetings and welcome to this website! Here is built by **Zhican Zhou (Albert, 周郅璨)**.
@@ -14,13 +12,10 @@ layout: page
 
 ---
 ## Research Interest
-
 <br>Zhican's research interest is primarily focused on the development of on-chip III-V laser and integrated heterogeneous computing
 system (e.g., optical/memristor A.I. accelerator hardware).
 
-<br>If you are securing potential collaborations or interested in the ongoing projects, please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [**| online talk |**](https://calendly.com/zhican_zhou/30min) (Powered by calendly).
-
-<br>
+<br>If you are securing potential collaborations or interested in the ongoing projects, please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [| online talk |](https://calendly.com/zhican_zhou/30min) (Powered by calendly).
 
 ---
 
