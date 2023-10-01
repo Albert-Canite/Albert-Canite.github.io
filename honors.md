@@ -17,9 +17,9 @@ title: Honors
 ## Scholarships
 
 - Full Doctoral Scholarship, since 2022, KAUST (~ $30k per year)
-- First-class "Gongneng" Scholarship, 2021, NKU (5 out of 146)
+- First-class "Gongneng" Graduate Student Scholarship, 2021, NKU (5 out of 146)
 - Freshman Graduate Student Scholarship, 2020, NKU (Top 20%)
-- First-class Outstanding Student Scholarship, 2016 - 2019, CQU (2 out of 102)
+- First-class Outstanding Undergraduate Student Scholarship, 2016 - 2019, CQU (2 out of 102)
 - "Haotian" Scholarship for Excellent Student, 2018, CQU (1 out of 102)
 
 <br>
