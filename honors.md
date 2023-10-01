@@ -8,8 +8,10 @@ title: Honors
 
 ---
 
+<br>
 
 **Jun. 2022:** Zhican, as an exemplary master's graduate from Nankai University, has been featured by the NKU's publicity platform. For the full article (in Chinese), please click [[here]](https://mp.weixin.qq.com/s/vLy9ibk_FfDScQ36TPt18A) to view. It’s an honor to share this recognition, and grateful for the support and opportunities provided by NKU.
+
 <br>
 
 ## Scholarships
