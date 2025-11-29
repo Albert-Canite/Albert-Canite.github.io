@@ -26,6 +26,7 @@ title: Honors
 
 ## Honors
 
+- KAUST CEMSE Dean’s Award (Top 20%)
 - Outstanding Master's Graduate, 2022, NKU (Top 1%)
 - Outstanding Master's Thesis, 2022, NKU (Top 0.5%)
 - Excellent Joint Training Students, 2021, NCNST (Top 1%)
