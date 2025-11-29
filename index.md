@@ -21,8 +21,7 @@ Zhican is a devoted student of **physics** with a passion for perpetual learning
 
 <br>
 
-Zhican's research interest is primarily focused on the development of on-chip III-V laser and integrated heterogeneous computing
-system (e.g., optical/memristor A.I. accelerator hardware).
+Zhican’s research focuses on on-chip laser technologies, heterogeneous photonic/memristor computing systems for AI acceleration, and secure hardware architectures for privacy-preserving data processing.
 
 <br>
 
@@ -37,27 +36,51 @@ please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [|
 
 <br>
 
+- **July. 2025**
+
+The project _“Broadband Photonics with Quantum Dot Driven Lithium Niobate Integrated Circuits”_ was awarded a Competitive Research Grant (CRG) from KAUST, receiving a total funding of US$100K. Zhican serves as a primary student contributor, collaborating with [Cheng’s Lab](https://www.ee.cityu.edu.hk/~cwang/index.htm) in CUHK on the development of LN-based photonic computing technologies within the project.
+
+<br>
+
+- **May. 2025**
+
+Zhican delivered an oral presentation titled [“Deep Learning-Enhanced Dynamic Photonic Security System Using Multimode VCSELs”](https://ieeexplore.ieee.org/abstract/document/10728674/authors#authors) at the Conference on Lasers and Electro-Optics (CLEO) 2025 in Long Beach, CA.
+
+<br>
+
+- **Feb. 2025**
+
+The project _“Unlocking AI Acceleration: Integrated Silicon Photonics with Quantum Dot Lasers,”_ funded by a US$350,000 Basic Science Grant (BSG) from the Research Development and Innovation Authority (RDIA) of Saudi Arabia, was selected for exhibition at the “2025 Future Economy Innovation Week” in Riyadh. Zhican represented the team as the student delegate and demonstrated the project’s prototype system at the “Research Exploration” showcase.
+
+<br>
+
+- **Sep. 2024**
+
+Zhican commenced a 3-month research visit at the [Photonic Chip and Information System Innovation Center (PCISIC)](pcis.pku.edu.cn) at Peking University, working on packaging and high-speed testing of photonic computing systems.
+
+<br>
+
+- **May. 2024**
+
+Zhican delivered an oral presentation titled [“On-Chip Quantum Dot Lasers Driven High-Speed Optical Neural Networks”](https://ieeexplore.ieee.org/abstract/document/10728674/authors#authors) at the Conference on Lasers and Electro-Optics (CLEO) 2024 in Charlotte, NC.
+
+<br>
+
+- **Apr. 2024**
+
+Zhican began a 2-month research visit at the [UT Design Automation Laboratory](cerc.utexas.edu/utda) at UT Austin, focusing on hardware-aware algorithm co-design for optical computing systems.
+
+<br>
+
 - **Sep. 2023**
 
-Congratulations to our project titled _"Fast and Energy-efficient Photonic Integrated Circuits Powered by Quantum Dot Lasers for Artificial Intelligence Models"_ for successfully securing $200k from the KAUST-Opportunity Fund Program (OFP). Technical specifics were fully completed by Zhican, who is appointed as the principal student responsible for managing and implementing the project.
+Congratulations to our project titled _"Fast and Energy-efficient Photonic Integrated Circuits Powered by Quantum Dot Lasers for Artificial Intelligence Models"_ for successfully securing $200k from the KAUST-Opportunity Fund Program (Collaboration with UT Austin). Technical specifics were fully completed by Zhican, who is appointed as the principal student responsible for managing and implementing the project.
 
 <br>
 
 - **Jul. 2023** 
 
 Congratulations to our project _"Optoelectronic Hardware Acceleration for Variational Autoencoder"_ for obtaining $50k in support from the [Saudi Center of Excellence in Data Science and Artificial Intelligence (SDAIA)](https://sdaia.gov.sa/en/default.aspx). Zhican serves as the student leader of the program.
-
-<br>
-
-- **Apr. 2023**
-
-[KAUST-Semiconductor Photonics Workshop (SPW)](https://cemse.kaust.edu.sa/ipl/news/semiconductor-photonics-workshop-2023-0) was successfully held where Zhican was participated in organizing the whole event.
-
-<br>
-
-- **Mar. 2023**
-
-The initial design of our optical computing chips was dispatched to the Institute of Microelectronics of the Chinese Academy of Sciences (IMCAS) for the tape-out process.
 
 <br>
 
