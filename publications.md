@@ -12,7 +12,7 @@ title: Publications
 ---
 Lastest Update: 29th Nov. 2025, check full list on [[Google Scholar]](https://scholar.google.com/citations?user=KL0TOlEAAAAJ&hl=en&authuser=1)
 <br>
-Over 400 citations by 2025, total journal impact factor over 50 (Published, first and co-first).
+_Over 400 citations by 2025, total journal impact factor over 50 (Published, first and co-first)._
 <br>
 
 ## Selected first/Co-first authored papers
