@@ -18,6 +18,15 @@ html {
 	.suffix(12,1);
 	margin-bottom: 1em;
 }
+.site-name-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.6rem;
+	border-bottom: 0 solid transparent;
+}
+.site-avatar {
+	display: none;
+}
 .top-navigation {
 	.container();
 	.grid(12,10);
@@ -113,8 +122,12 @@ html {
 .article-wrap {
 	p,
 	li {
-		text-align: justify;
+		text-align: justify !important;
+		text-align-last: justify;
 		text-justify: inter-word;
+		-webkit-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
 	}
 	h2 {
 		.gamma();
@@ -389,7 +402,7 @@ html {
 		box-sizing: border-box;
 	}
 	.navigation-wrapper {
-		padding: 1rem 1rem 1.75rem;
+		padding: 1.35rem 1.35rem 2rem;
 	}
 	.site-name,
 	.top-navigation,
@@ -402,9 +415,23 @@ html {
 		margin-left: 0;
 		margin-right: 0;
 	}
+	.site-name {
+		margin-bottom: 1.1rem;
+		padding-left: 0.9rem;
+	}
+	.site-name-link {
+		gap: 0.7rem;
+	}
+	.site-avatar {
+		display: inline-block;
+		width: 42px;
+		height: 42px;
+		border-radius: 50%;
+	}
 	.top-navigation {
 		font-size: 1rem;
 		line-height: 1.2;
+		padding-left: 0;
 		ul {
 			display: flex;
 			flex-wrap: wrap;
@@ -414,17 +441,28 @@ html {
 		li {
 			display: inline-block;
 			margin-right: 0;
+			a {
+				white-space: nowrap;
+			}
 		}
 	}
 	#main {
 		margin-top: 0;
-		padding: 0 1rem;
+		padding: 0 1.35rem;
 		width: 100%;
+	}
+	#main article {
+		padding: 0;
 	}
 	.article-wrap {
 		overflow-wrap: break-word;
 		font-size: 0.98rem;
 		line-height: 1.6;
+		p,
+		li {
+			text-align: justify !important;
+			text-align-last: auto;
+		}
 		h1 {
 			font-size: 2.25rem;
 			line-height: 1.1;
