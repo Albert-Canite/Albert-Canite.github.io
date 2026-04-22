@@ -351,3 +351,50 @@ html {
 		}
 	}
 }
+
+@media only screen and (max-width: 37.49em) {
+	.navigation-wrapper {
+		padding: 1.25em 0 1.5em;
+	}
+	.site-name,
+	.top-navigation,
+	#main article,
+	.footer-wrap footer,
+	.related-articles {
+		float: none;
+		width: auto;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	.top-navigation {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.45rem 1rem;
+		}
+		li {
+			display: inline-block;
+			margin-right: 0;
+		}
+	}
+	#main {
+		margin-top: 0;
+	}
+	.article-wrap {
+		overflow-wrap: break-word;
+		h2 {
+			font-size: 1.5rem;
+			line-height: 1.2;
+		}
+	}
+	img.floatpic,
+	img.floatpic_l,
+	img.floatpic_c {
+		float: none;
+		display: block;
+		width: 100%;
+		max-width: 280px;
+		height: auto;
+		margin: 0 auto 1.25rem;
+	}
+}
