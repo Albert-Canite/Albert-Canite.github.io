@@ -281,7 +281,7 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 .article-wrap h2{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
 .article-wrap h3{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;}
 .latest-news-toggle{display:inline-block;margin:0.5rem 0 2rem;padding:0.45rem 1rem;font-family:'PT Sans Narrow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0;color:#333332;background:#ffffff;border:2px solid #8c8c8a;cursor:pointer;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}.latest-news-toggle:hover,.latest-news-toggle:focus{border-color:#333332;outline:0;}
-.project-intro{text-indent:2em;}
+.project-intro{text-indent:2em;}.project-intro+.project-intro{margin-top:1em;}
 .media-entry{clear:both;margin:1rem 0 2rem;}
 .media-entry-image{display:block;width:120px;max-width:120px;height:auto;margin:0 auto 0.85rem;}
 .media-entry-image-wide{width:120px;max-width:120px;}
