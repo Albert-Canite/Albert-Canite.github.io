@@ -66,6 +66,8 @@ Zhican delivered an oral presentation titled [_“Deep Learning-Enhanced Dynamic
 
 <br>
 
+<div id="latest-news-extra" class="latest-news-extra" markdown="1" hidden>
+
 - **Feb. 2025**
 
 The project _“Unlocking AI Acceleration: Integrated Silicon Photonics with Quantum Dot Lasers,”_ funded by a US$350,000 Basic Science Grant (BSG) from the Research Development and Innovation Authority (RDIA) of Saudi Arabia, was selected for exhibition at the “2025 Future Economy Innovation Week” in Riyadh. Zhican represented the team as the student delegate and demonstrated the project’s prototype system at the “Research Exploration” showcase.
@@ -105,3 +107,7 @@ Congratulations to our project _"Optoelectronic Hardware Acceleration for Variat
 - **Jan. 2023**
 
 Congratulations are in order as our review, titled [_"Prospects and Applications of On-Chip Lasers"_](https://elight.springeropen.com/articles/10.1186/s43593-022-00027-x) has been published in the prestigious journal, _eLight_, and was featured as a front-page article. Zhican is the first author of this paper.
+
+</div>
+
+<button type="button" id="latest-news-toggle" class="latest-news-toggle" aria-controls="latest-news-extra" aria-expanded="false">Read more</button>

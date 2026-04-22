@@ -111,11 +111,35 @@ html {
 	}
 }
 .article-wrap {
+	p,
+	li {
+		text-align: justify;
+		text-justify: inter-word;
+	}
 	h2 {
 		.gamma();
 	}
 	h3 {
 		.delta();
+	}
+}
+.latest-news-toggle {
+	display: inline-block;
+	margin: 0.5rem 0 2rem;
+	padding: 0.45rem 1rem;
+	font-family: @baseheadingfont;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	color: @textcolor;
+	background: @bodycolor;
+	border: 2px solid lighten(@textcolor, 35%);
+	cursor: pointer;
+	.transition(all .2s);
+	&:hover,
+	&:focus {
+		border-color: @textcolor;
+		outline: 0;
 	}
 }
 .byline {
@@ -353,8 +377,19 @@ html {
 }
 
 @media only screen and (max-width: 37.49em) {
+	html {
+		font-size: 90%;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	body *,
+	body *:before,
+	body *:after {
+		box-sizing: border-box;
+	}
 	.navigation-wrapper {
-		padding: 1.25em 0 1.5em;
+		padding: 1rem 1rem 1.75rem;
 	}
 	.site-name,
 	.top-navigation,
@@ -362,15 +397,19 @@ html {
 	.footer-wrap footer,
 	.related-articles {
 		float: none;
-		width: auto;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		display: block;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	.top-navigation {
+		font-size: 1rem;
+		line-height: 1.2;
 		ul {
 			display: flex;
 			flex-wrap: wrap;
-			gap: 0.45rem 1rem;
+			gap: 0.5rem 1rem;
+			max-width: 100%;
 		}
 		li {
 			display: inline-block;
@@ -379,22 +418,45 @@ html {
 	}
 	#main {
 		margin-top: 0;
+		padding: 0 1rem;
+		width: 100%;
 	}
 	.article-wrap {
 		overflow-wrap: break-word;
+		font-size: 0.98rem;
+		line-height: 1.6;
+		h1 {
+			font-size: 2.25rem;
+			line-height: 1.1;
+			margin-bottom: 1.25rem;
+		}
 		h2 {
 			font-size: 1.5rem;
 			line-height: 1.2;
 		}
 	}
-	img.floatpic,
-	img.floatpic_l,
+	img.floatpic {
+		float: none;
+		display: block;
+		width: 100%;
+		max-width: 220px;
+		height: auto;
+		margin: 0 auto 1.25rem;
+	}
+	img.floatpic_l {
+		float: none;
+		display: block;
+		width: 72px;
+		max-width: 72px;
+		height: auto;
+		margin: 0 auto 0.75rem;
+	}
 	img.floatpic_c {
 		float: none;
 		display: block;
 		width: 100%;
-		max-width: 280px;
+		max-width: 100%;
 		height: auto;
-		margin: 0 auto 1.25rem;
+		margin: 0 auto 1rem;
 	}
 }

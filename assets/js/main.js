@@ -1878,6 +1878,21 @@ $(function() {
   });
 });
 
+// Latest news toggle
+$(function() {
+  var $extraNews = $("#latest-news-extra");
+  var $toggle = $("#latest-news-toggle");
+
+  if (!$extraNews.length || !$toggle.length) {
+    return;
+  }
+
+  $toggle.on("click", function() {
+    $extraNews.removeAttr("hidden");
+    $toggle.attr("aria-expanded", "true").hide();
+  });
+});
+
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
