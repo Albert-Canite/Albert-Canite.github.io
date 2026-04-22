@@ -10,9 +10,12 @@ title: Honors
 
 <br>
 
-<img src="https://albert-canite.github.io/images/Tingye_Li.png" class="floatpic_l" width="120" height="120">
-
+<div class="media-entry" markdown="1">
+<img src="https://albert-canite.github.io/images/Tingye_Li.png" class="media-entry-image media-entry-image-wide" width="160" height="160">
+<div class="media-entry-body" markdown="1">
 **Mar. 2026:** Zhican received the [2026 PSC Tingye Li Memorial Scholarship](https://psc-sc.org/tingye-li-memorial-scholarship-announcement-and-winners/) for Excellence in Photonics in recognition of his contributions to integrated photonic computing and hardware security. For more information, please click [Here](https://mp.weixin.qq.com/s/N8vARxOvMvHJVJpsnCVLfA?scene=1&click_id=3) to view.
+</div>
+</div>
 
 <br>
 
