@@ -4,8 +4,6 @@ layout: page
 
 # About Me
 
----
-
 <style>
 img.floatpic.profile-photo { width: 29.7%; height: auto; }
 .about-intro p { margin: 0 0 1.25em; text-indent: 1.5em; }
