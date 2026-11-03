@@ -4,6 +4,13 @@
 			<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="site-avatar" alt="{{ site.owner.name }} avatar" width="48" height="48">
 			<span>{{ site.title }}</span>
 		</a>
+		<div class="mobile-social-links" aria-label="Social links">
+			{% if site.owner.email %}<a href="mailto:{{ site.owner.email }}" aria-label="Email" title="Email"><i class="icon-mail"></i></a>{% endif %}
+			{% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" aria-label="Twitter" title="Twitter"><i class="icon-twitter"></i></a>{% endif %}
+			{% if site.owner.linkedin %}<a href="https://linkedin.com/in/{{ site.owner.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><i class="icon-linkedin"></i></a>{% endif %}
+			{% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}" aria-label="GitHub" title="GitHub"><i class="icon-github"></i></a>{% endif %}
+			{% if site.owner.scholar %}<a href="{{ site.owner.scholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>{% endif %}
+		</div>
 	</div><!-- /.site-name -->
   {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
 	<div class="top-navigation">
