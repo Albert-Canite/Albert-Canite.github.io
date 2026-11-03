@@ -8,6 +8,22 @@ layout: page
 img.floatpic.profile-photo { width: 29.7%; height: auto; }
 .about-intro p { margin: 0 0 1.25em; text-indent: 1.5em; }
 .about-intro p + p { margin-top: 0; text-indent: 1.5em; }
+.site-visit-message {
+  position: relative;
+  top: 0.2em;
+  visibility: hidden;
+  opacity: 0;
+  color: #65788a;
+  transition: opacity 0.5s ease, top 0.5s ease;
+}
+.site-visit-message.is-loaded {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-visit-message { transition: none; }
+}
 @media only screen and (max-width:37.49em) {
   img.floatpic.profile-photo {
     width: 90%;
@@ -23,9 +39,9 @@ img.floatpic.profile-photo { width: 29.7%; height: auto; }
 
 <img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="315" height="315" alt="Zhican Zhou">
 
-Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**. <span id="site-visit-message">This is visit number <strong id="site-visit-count">1,367</strong> to this website.</span>
+Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**. <span id="site-visit-message" class="site-visit-message">This is visit number <strong id="site-visit-count">1,367</strong> to this website.</span>
 
-Zhican is currently a **Research Fellow at the National University of Singapore (NUS)**. He received his **Ph.D. in Electrical and Computer Engineering (ECE) from King Abdullah University of Science and Technology (KAUST)**.
+Zhican is currently a **Research Fellow at the National University of Singapore (NUS)**. He received his Ph.D. in Electrical and Computer Engineering (ECE) from King Abdullah University of Science and Technology (KAUST).
 
 He has authored or co-authored **23 journal and conference papers**, including key works published in ***Nature Electronics*** and ***Nature Communications***. His work has attracted broad media attention, with coverage by [EurekAlert!](https://www.eurekalert.org/news-releases/1135368), [Tech Xplore](https://techxplore.com/news/2026-05-ai-ultralow-energy-lasers-enable.html), and [Optics & Photonics News](https://www.optica-opn.org/home/newsroom/2026/july/laser-based_digital_security_system/), as well as [Saudi national television](https://www.youtube.com/watch?v=EoIfNRJZit4).
 

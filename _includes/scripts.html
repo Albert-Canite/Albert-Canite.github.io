@@ -24,10 +24,12 @@
       })
       .then(function(response) {
         var count = document.getElementById("site-visit-count");
+        var message = document.getElementById("site-visit-message");
         var value = response && Number(response.value);
 
-        if (count && Number.isFinite(value)) {
+        if (count && message && Number.isFinite(value)) {
           count.textContent = (1367 + value).toLocaleString("en-US");
+          message.classList.add("is-loaded");
         }
       })
       .catch(function() {
