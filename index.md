@@ -9,15 +9,19 @@ img.floatpic.profile-photo { width: 29.7%; height: auto; }
 .about-intro p { margin: 0 0 1.25em; text-indent: 1.5em; }
 .about-intro p + p { margin-top: 0; text-indent: 1.5em; }
 @media only screen and (max-width:37.49em) {
-  img.floatpic.profile-photo { width: 90%; max-width: 198px; }
+  img.floatpic.profile-photo {
+    width: 90%;
+    max-width: 198px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 }
 </style>
 
-<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="315" height="450" alt="Zhican Zhou">
-
-<br>
-
 <div class="about-intro" markdown="1">
+
+<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="315" height="315" alt="Zhican Zhou">
 
 Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**.
 
@@ -43,7 +47,7 @@ Zhican’s research focuses on **silicon photonics**, **hybrid optoelectronic co
 <br>
 
 If you are securing potential collaborations or interested in the ongoing projects, 
-please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [| online talk |](https://calendly.com/zhican_zhou/30min) (powered by Calendly).
+please feel free to add the personal wechat (ID: Zhican_Photonics) or book an [| online talk |](https://calendly.com/zhican_zhou/30min) (powered by Calendly).
 
 <br>
 
