@@ -2,6 +2,35 @@
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/main.min.js"></script>
 <script>
+  (function() {
+    var productionHosts = [
+      "www.zhicanzhou.com",
+      "zhicanzhou.com",
+      "albert-canite.github.io"
+    ];
+
+    if (productionHosts.indexOf(window.location.hostname) === -1) {
+      return;
+    }
+
+    window.updateSiteVisitCount = function(response) {
+      var count = document.getElementById("site-visit-count");
+      var message = document.getElementById("site-visit-message");
+      var value = response && Number(response.value);
+
+      if (count && message && Number.isFinite(value)) {
+        count.textContent = value.toLocaleString("en-US");
+        message.removeAttribute("hidden");
+      }
+    };
+
+    var counterScript = document.createElement("script");
+    counterScript.async = true;
+    counterScript.src = "https://counterapi.com/api/www.zhicanzhou.com/view/site-total-visits?startNumber=1367&callback=updateSiteVisitCount";
+    document.head.appendChild(counterScript);
+  }());
+</script>
+<script>
   $(function() {
     var $extraNews = $("#latest-news-extra");
     var $toggle = $("#latest-news-toggle");
