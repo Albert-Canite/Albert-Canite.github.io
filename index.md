@@ -13,7 +13,10 @@ img.floatpic.profile-photo { width: 29.7%; height: auto; }
   top: 0.2em;
   visibility: hidden;
   opacity: 0;
-  color: #65788a;
+  color: #b1784f;
+  text-decoration: underline;
+  text-decoration-color: rgba(177, 120, 79, 0.65);
+  text-underline-offset: 0.16em;
   transition: opacity 0.5s ease, top 0.5s ease;
 }
 .site-visit-message.is-loaded {

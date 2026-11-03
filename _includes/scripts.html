@@ -13,7 +13,26 @@
       return;
     }
 
-    fetch("https://abacus.jasoncameron.dev/hit/zhicanzhou-com/site-total-visits", {
+    var isHomepage = window.location.pathname === "/" ||
+      window.location.pathname === "/index.html";
+
+    if (!isHomepage) {
+      return;
+    }
+
+    var navigation = window.performance &&
+      window.performance.getEntriesByType &&
+      window.performance.getEntriesByType("navigation")[0];
+    var isReload = navigation && navigation.type === "reload";
+    var hasCountedHomepage = window.sessionStorage.getItem("homepage-visit-counted");
+    var shouldIncrement = !hasCountedHomepage || isReload;
+    var counterAction = shouldIncrement ? "hit" : "get";
+
+    if (shouldIncrement) {
+      window.sessionStorage.setItem("homepage-visit-counted", "true");
+    }
+
+    fetch("https://abacus.jasoncameron.dev/" + counterAction + "/zhicanzhou-com/site-total-visits", {
       cache: "no-store"
     })
       .then(function(response) {
