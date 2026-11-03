@@ -4,24 +4,34 @@ layout: page
 
 # About Me
 
-<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic" width="350" height="500">
+<style>
+img.floatpic.profile-photo { width: 26.4%; height: auto; }
+@media only screen and (max-width:37.49em) {
+  img.floatpic.profile-photo { width: 80%; max-width: 176px; }
+}
+</style>
+
+<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="280" height="400" alt="Zhican Zhou">
 
 <br>
 
-Greetings and welcome to this website! Here is built by **Zhican Zhou (Albert, 周郅璨)**.
+Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**.
 
-<br>
+Zhican is currently a **Research Fellow at the National University of Singapore (NUS)**. He received his **Ph.D. in Electrical and Computer Engineering (ECE) from King Abdullah University of Science and Technology (KAUST)**.
 
-Zhican is a devoted student of **physics** with a passion for perpetual learning and exploration. He is currently pursuing his Ph.D. at [Integrated Photonics Laboratory (IPL)](https://ipl.kaust.edu.sa/) advised by [Prof. Yating Wan](https://scholar.google.com/citations?user=uJ6__ScAAAAJ&hl=en&oi=ao) at King Abdullah University of Science and Technology (KAUST). Kindly access Zhican's CV [[here]](https://albert-canite.github.io/file/zhicanzhou-CV.pdf).
+He has authored or co-authored **23 journal and conference papers**, including key works published in ***Nature Electronics*** and ***Nature Communications***. His work has attracted broad media attention, with coverage by [EurekAlert!](https://www.eurekalert.org/news-releases/1135368), [Tech Xplore](https://techxplore.com/news/2026-05-ai-ultralow-energy-lasers-enable.html), and [Optics & Photonics News](https://www.optica-opn.org/home/newsroom/2026/july/laser-based_digital_security_system/), as well as [Saudi national television](https://www.youtube.com/watch?v=EoIfNRJZit4).
 
+He has gained experience in graduate-level teaching and research mentoring by serving as a teaching assistant for two ECE courses and mentoring six research interns. He has also contributed to multiple funded research projects, including proposal preparation, experimental planning, and project execution. In recognition of his contributions to integrated photonic computing and hardware-rooted security, he was awarded the **2026 Tingye Li Memorial Scholarship**, an international award presented to only two recipients worldwide each year.
+
+Further information is available in his [CV](https://albert-canite.github.io/file/zhicanzhou-CV.pdf) and on his [Google Scholar profile](https://scholar.google.com/citations?user=KL0TOlEAAAAJ&hl=en).
 <br>
 
 ---
-## Research Interest
+## Research Interests
 
 <br>
 
-Zhican’s research focuses on on-chip laser technologies, heterogeneous photonic/memristor computing systems for AI acceleration, and secure hardware architectures for privacy-preserving data processing.
+Zhican’s research focuses on **silicon photonics**, **hybrid optoelectronic computing systems**, **hardware-aware neural-network design**, and **privacy-preserving hardware architectures**. His work spans photonic devices, computing systems, and algorithm–hardware co-design for energy-efficient AI and hardware-rooted security.
 
 <br>
 
@@ -36,9 +46,27 @@ please feel free to add the personal wechat (ID: Zhican_KAUST2022) or book an [|
 
 <br>
 
+- **Oct. 2026**
+
+Zhican began a new position as a Research Fellow at the National University of Singapore (NUS), continuing his research on silicon photonic computing and security systems while expanding into monolithic integration technologies for optoelectronic systems.
+
+<br>
+
+- **Jul. 2026**
+
+Congratulations to Zhican on successfully defending his Ph.D. dissertation in Electrical and Computer Engineering at King Abdullah University of Science and Technology (KAUST).
+
+<br>
+
+- **May. 2026**
+
+Congratulations to Zhican on the publication of his paper, [_“Chaos-based scalable optoelectronic physical unclonable functions with AI-driven dynamic authentication,”_](https://www.nature.com/articles/s41928-026-01627-y) in Nature Electronics. The paper is now available online, presenting a scalable optoelectronic hardware security system with AI-driven dynamic authentication.
+
+<br>
+
 - **Mar. 2026**
 
-Congratulations to Zhican Zhou on receiving the [2026 PSC Tingye Li Memorial Scholarship](https://psc-sc.org/tingye-li-memorial-scholarship-announcement-and-winners/) for Excellence in Photonics for his outstanding contributions to integrated photonic computing and hardware security. More information is available [here](https://ipl.kaust.edu.sa/articles/2026/04/14/zhican-zhou-receives-2026-psc-tingye-li-memorial-scholarship-excellence).
+Congratulations to Zhican Zhou on receiving the [2026 PSC Tingye Li Memorial Scholarship](https://psc-sc.org/tingye-li-memorial-scholarship-announcement-and-winners/) for Excellence in Photonics for his outstanding contributions to integrated photonic computing and hardware security.
 
 <br>
 
@@ -46,11 +74,6 @@ Congratulations to Zhican Zhou on receiving the [2026 PSC Tingye Li Memorial Sch
 
 Zhican’s paper, [_“Integrated quantum dot lasers for parallelized photonic edge computing,”_](https://www.spiedigitallibrary.org/journals/advanced-photonics/volume-8/issue-2/026017/Integrated-quantum-dot-lasers-for-parallelized-photonic-edge-computing/10.1117/1.AP.8.2.026017.full) has been published in Advanced Photonics, demonstrating a cross-layer strategy for scalable photonic edge computing based on integrated quantum dot laser sources.
 
-<br>
-
-- **Dec. 2025**
-
-Zhican’s paper titled _“Chaos-based scalable optoelectronic physical unclonable functions with AI-driven dynamic authentication”_ has received acceptance in principle from Nature Electronics; readers are welcome to view the preprint version [Here](https://www.researchsquare.com/article/rs-6484421/v1).
 
 <br>
 
