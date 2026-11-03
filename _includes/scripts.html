@@ -47,7 +47,7 @@
     }
 
     function requestVisitCount(action, fallbackValue) {
-      return fetch("https://abacus.jasoncameron.dev/" + action + "/zhicanzhou-com/site-total-visits", {
+      return fetch("https://countapi.mileshilliard.com/api/v1/" + action + "/zhicanzhou-com-site-total-visits-7f3c9a", {
         cache: "no-store"
       })
         .then(function(response) {
@@ -60,7 +60,7 @@
           var value = response && Number(response.value);
 
           if (Number.isFinite(value)) {
-            var displayedValue = 1367 + value;
+            var displayedValue = value;
             sessionSet("homepage-visit-value", String(displayedValue));
             showVisitCount(displayedValue);
           }
