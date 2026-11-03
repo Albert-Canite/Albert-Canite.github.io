@@ -13,21 +13,26 @@
       return;
     }
 
-    window.updateSiteVisitCount = function(response) {
-      var count = document.getElementById("site-visit-count");
-      var message = document.getElementById("site-visit-message");
-      var value = response && Number(response.value);
+    fetch("https://abacus.jasoncameron.dev/hit/zhicanzhou-com/site-total-visits", {
+      cache: "no-store"
+    })
+      .then(function(response) {
+        if (!response.ok) {
+          throw new Error("Visit counter request failed");
+        }
+        return response.json();
+      })
+      .then(function(response) {
+        var count = document.getElementById("site-visit-count");
+        var value = response && Number(response.value);
 
-      if (count && message && Number.isFinite(value)) {
-        count.textContent = value.toLocaleString("en-US");
-        message.removeAttribute("hidden");
-      }
-    };
-
-    var counterScript = document.createElement("script");
-    counterScript.async = true;
-    counterScript.src = "https://counterapi.com/api/www.zhicanzhou.com/view/site-total-visits?startNumber=1367&callback=updateSiteVisitCount";
-    document.head.appendChild(counterScript);
+        if (count && Number.isFinite(value)) {
+          count.textContent = (1367 + value).toLocaleString("en-US");
+        }
+      })
+      .catch(function() {
+        // Keep the starting value visible if the counter service is unavailable.
+      });
   }());
 </script>
 <script>

@@ -23,7 +23,7 @@ img.floatpic.profile-photo { width: 29.7%; height: auto; }
 
 <img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="315" height="315" alt="Zhican Zhou">
 
-Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**. <span id="site-visit-message" hidden>This is visit number <strong id="site-visit-count"></strong> to this website.</span>
+Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**. <span id="site-visit-message">This is visit number <strong id="site-visit-count">1,367</strong> to this website.</span>
 
 Zhican is currently a **Research Fellow at the National University of Singapore (NUS)**. He received his **Ph.D. in Electrical and Computer Engineering (ECE) from King Abdullah University of Science and Technology (KAUST)**.
 
