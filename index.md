@@ -61,7 +61,7 @@ Further information is available in his [CV](https://albert-canite.github.io/fil
 
 <br>
 
-Zhican’s research focuses on **silicon photonics**, **hybrid optoelectronic computing systems**, **hardware-aware neural-network design**, and **privacy-preserving hardware architectures**. His work spans photonic devices, computing systems, and algorithm–hardware co-design for energy-efficient AI and hardware-rooted security.
+Zhican’s research focuses on **silicon photonics**, **hybrid optoelectronic computing systems**, **hardware-aware neural-network design**, and **privacy-preserving hardware architectures**, with an emphasis on advancing energy-efficient AI and hardware-rooted security.
 
 <br>
 
