@@ -5,15 +5,19 @@ layout: page
 # About Me
 
 <style>
-img.floatpic.profile-photo { width: 26.4%; height: auto; }
+img.floatpic.profile-photo { width: 29.7%; height: auto; }
+.about-intro p { margin: 0 0 1.25em; text-indent: 1.5em; }
+.about-intro p + p { margin-top: 0; text-indent: 1.5em; }
 @media only screen and (max-width:37.49em) {
-  img.floatpic.profile-photo { width: 80%; max-width: 176px; }
+  img.floatpic.profile-photo { width: 90%; max-width: 198px; }
 }
 </style>
 
-<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="280" height="400" alt="Zhican Zhou">
+<img src="https://albert-canite.github.io/images/zhicanzhou.jpg" class="floatpic profile-photo" width="315" height="450" alt="Zhican Zhou">
 
 <br>
+
+<div class="about-intro" markdown="1">
 
 Welcome to the personal website of **Zhican Zhou (Albert, 周郅璨)**.
 
@@ -24,6 +28,9 @@ He has authored or co-authored **23 journal and conference papers**, including k
 He has gained experience in graduate-level teaching and research mentoring by serving as a teaching assistant for two ECE courses and mentoring six research interns. He has also contributed to multiple funded research projects, including proposal preparation, experimental planning, and project execution. In recognition of his contributions to integrated photonic computing and hardware-rooted security, he was awarded the **2026 Tingye Li Memorial Scholarship**, an international award presented to only two recipients worldwide each year.
 
 Further information is available in his [CV](https://albert-canite.github.io/file/zhicanzhou-CV.pdf) and on his [Google Scholar profile](https://scholar.google.com/citations?user=KL0TOlEAAAAJ&hl=en).
+
+</div>
+
 <br>
 
 ---
@@ -74,8 +81,9 @@ Congratulations to Zhican Zhou on receiving the [2026 PSC Tingye Li Memorial Sch
 
 Zhican’s paper, [_“Integrated quantum dot lasers for parallelized photonic edge computing,”_](https://www.spiedigitallibrary.org/journals/advanced-photonics/volume-8/issue-2/026017/Integrated-quantum-dot-lasers-for-parallelized-photonic-edge-computing/10.1117/1.AP.8.2.026017.full) has been published in Advanced Photonics, demonstrating a cross-layer strategy for scalable photonic edge computing based on integrated quantum dot laser sources.
 
-
 <br>
+
+<div id="latest-news-extra" class="latest-news-extra" markdown="1" hidden>
 
 - **July. 2025**
 
@@ -88,8 +96,6 @@ The project _“Broadband Photonics with Quantum Dot Driven Lithium Niobate Inte
 Zhican delivered an oral presentation titled [_“Deep Learning-Enhanced Dynamic Photonic Security System Using Multimode VCSELs”_](https://ieeexplore.ieee.org/abstract/document/10728674/authors#authors) at the Conference on Lasers and Electro-Optics (CLEO) 2025 in Long Beach, CA.
 
 <br>
-
-<div id="latest-news-extra" class="latest-news-extra" markdown="1" hidden>
 
 - **Feb. 2025**
 

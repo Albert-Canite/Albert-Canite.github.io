@@ -22,7 +22,7 @@ title: Biography
 <img src="https://albert-canite.github.io/images/KAUST.png" class="media-entry-image" width="120" height="120">
 <div class="media-entry-body" markdown="1">
 * **Ph.D. in Electrical and Computer Engineering**
-* _King Abdullah University of Science and Technology_
+* _King Abdullah University of Science and Technology_, Sep. 2022 - Sep. 2026
 </div>
 </div>
 
