@@ -20,40 +20,89 @@
       return;
     }
 
+    function sessionGet(key) {
+      try {
+        return window.sessionStorage.getItem(key);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function sessionSet(key, value) {
+      try {
+        window.sessionStorage.setItem(key, value);
+      } catch (error) {
+        // The counter still works when browser storage is unavailable.
+      }
+    }
+
+    function showVisitCount(value) {
+      var count = document.getElementById("site-visit-count");
+      var message = document.getElementById("site-visit-message");
+
+      if (count && message && Number.isFinite(value)) {
+        count.textContent = value.toLocaleString("en-US");
+        message.classList.add("is-loaded");
+      }
+    }
+
+    function requestVisitCount(action, fallbackValue) {
+      return fetch("https://abacus.jasoncameron.dev/" + action + "/zhicanzhou-com/site-total-visits", {
+        cache: "no-store"
+      })
+        .then(function(response) {
+          if (!response.ok) {
+            throw new Error("Visit counter request failed");
+          }
+          return response.json();
+        })
+        .then(function(response) {
+          var value = response && Number(response.value);
+
+          if (Number.isFinite(value)) {
+            var displayedValue = 1367 + value;
+            sessionSet("homepage-visit-value", String(displayedValue));
+            showVisitCount(displayedValue);
+          }
+        })
+        .catch(function() {
+          if (Number.isFinite(fallbackValue)) {
+            showVisitCount(fallbackValue);
+          }
+        });
+    }
+
     var navigation = window.performance &&
       window.performance.getEntriesByType &&
       window.performance.getEntriesByType("navigation")[0];
     var isReload = navigation && navigation.type === "reload";
-    var hasCountedHomepage = window.sessionStorage.getItem("homepage-visit-counted");
+    var cachedValue = Number(sessionGet("homepage-visit-value"));
+    var hasCachedValue = Number.isFinite(cachedValue) && cachedValue >= 1367;
+    var hasCountedHomepage = sessionGet("homepage-visit-counted");
     var shouldIncrement = !hasCountedHomepage || isReload;
-    var counterAction = shouldIncrement ? "hit" : "get";
 
-    if (shouldIncrement) {
-      window.sessionStorage.setItem("homepage-visit-counted", "true");
+    if (!isReload && hasCachedValue) {
+      showVisitCount(cachedValue);
     }
 
-    fetch("https://abacus.jasoncameron.dev/" + counterAction + "/zhicanzhou-com/site-total-visits", {
-      cache: "no-store"
-    })
-      .then(function(response) {
-        if (!response.ok) {
-          throw new Error("Visit counter request failed");
-        }
-        return response.json();
-      })
-      .then(function(response) {
-        var count = document.getElementById("site-visit-count");
-        var message = document.getElementById("site-visit-message");
-        var value = response && Number(response.value);
+    if (shouldIncrement) {
+      sessionSet("homepage-visit-counted", "true");
+    }
 
-        if (count && message && Number.isFinite(value)) {
-          count.textContent = (1367 + value).toLocaleString("en-US");
-          message.classList.add("is-loaded");
-        }
-      })
-      .catch(function() {
-        // Keep the starting value visible if the counter service is unavailable.
-      });
+    requestVisitCount(shouldIncrement ? "hit" : "get", hasCachedValue ? cachedValue : NaN);
+
+    window.addEventListener("pageshow", function(event) {
+      if (!event.persisted) {
+        return;
+      }
+
+      var restoredValue = Number(sessionGet("homepage-visit-value"));
+      if (Number.isFinite(restoredValue) && restoredValue >= 1367) {
+        showVisitCount(restoredValue);
+      } else {
+        requestVisitCount("get", NaN);
+      }
+    });
   }());
 </script>
 <script>
