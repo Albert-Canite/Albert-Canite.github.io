@@ -260,10 +260,11 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 .top-navigation li{list-style-type:none;display:inline;margin-right:25px;}.top-navigation li a{decoration:none;border-bottom:0 solid transparent;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}
 .top-navigation-current{text-decoration: overline;}
 .top-navigation li.lang-switch{margin-right:0;white-space:nowrap;}
-.top-navigation a.lang-switch-link{display:inline-flex;align-items:center;gap:0.3em;color:#b1784f;vertical-align:baseline;}
-.top-navigation a.lang-switch-link:hover,.top-navigation a.lang-switch-link:focus{color:#333332;outline:0;}
-.top-navigation a.lang-switch-link[lang="zh-CN"]{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",sans-serif;}
-.lang-switch-icon{display:block;flex:none;width:0.95em;height:0.95em;}
+a.lang-switch-link{display:inline-flex;align-items:center;gap:0.3em;color:#b1784f;vertical-align:baseline;border-bottom:0 solid transparent;white-space:nowrap;}
+a.lang-switch-link:hover,a.lang-switch-link:focus{color:#333332;outline:0;}
+a.lang-switch-link[lang="zh-CN"]{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",sans-serif;}
+.lang-switch-icon{display:block;flex:none;width:1.25em;height:1em;}
+@media only screen and (max-width:37.49em){.top-navigation li.lang-switch{display:none;} .mobile-social-links a.lang-switch-link,.mobile-social-links a.lang-switch-link:hover,.mobile-social-links a.lang-switch-link:focus{width:auto;height:auto;margin-left:0.3rem;border-radius:0;background:transparent;} .mobile-social-links a.lang-switch-link{color:#b1784f;gap:0.2em;} .mobile-social-links a.lang-switch-link:hover,.mobile-social-links a.lang-switch-link:focus{color:#333332;}}
 #main{counter-reset:captions;margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}#main:before,#main:after{display:table;content:"";}
 #main:after{clear:both;}
 #main:before,#main:after{content:"";display:table;}

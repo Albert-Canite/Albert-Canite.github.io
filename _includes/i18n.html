@@ -8,14 +8,12 @@
 {% capture page_path %}{{ page.url | remove:'index.html' }}{% endcapture %}
 {% if page.lang == 'zh-CN' %}
   {% assign is_zh = true %}
-  {% assign site_title = site.title_zh %}
   {% assign home_url = '/zh/' %}
   {% assign nav_links = site.links_zh %}
   {% assign en_path = page_path | remove_first: '/zh' %}
   {% assign zh_path = page_path %}
 {% else %}
   {% assign is_zh = false %}
-  {% assign site_title = site.title %}
   {% assign home_url = '/' %}
   {% assign nav_links = site.links %}
   {% assign en_path = page_path %}

@@ -3,11 +3,11 @@
 
 {% include i18n.html %}
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site_title }}</title>
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 {% if site.owner.twitter %}<!-- Twitter Card and Open Graph meta -->
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site_title }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
 {% if page.layout == 'photo' %}
@@ -20,10 +20,10 @@
 <meta property="og:image" content="{% if page.image.thumb %}{{ site.url }}/images/{{ page.image.thumb }}{% else %}{{ site.url }}/images/default-thumb.png{% endif %}">
 {% endif %}
 <meta property="og:locale" content="{% if is_zh %}zh_CN{% else %}en_US{% endif %}">
-<meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site_title }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:site_name" content="{{ site_title }}">
+<meta property="og:site_name" content="{{ site.title }}">
 
 {% if site.google_verify %}<!-- Webmaster Tools verfication -->
 <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
@@ -48,7 +48,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css?v=20261106-1">
+<link rel="stylesheet" href="/assets/css/main.css?v=20261106-3">
 {% if is_zh %}<link rel="stylesheet" href="/assets/css/zh.css?v=20261106-1">{% endif %}
 
 <!--[if (lt IE 9) & (!IEMobile)]>

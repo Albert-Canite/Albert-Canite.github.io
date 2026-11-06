@@ -46,9 +46,8 @@ links:
     url: /life/
 
 # Chinese version of the site (pages under /zh/ with lang: zh-CN)
-title_zh: 周郅璨
 links_zh:
-  - title: 关于我
+  - title: 个人简介
     url: /zh/
   - title: 个人经历
     url: /zh/biography/

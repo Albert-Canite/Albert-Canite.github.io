@@ -1,8 +1,9 @@
+{% capture lang_switch %}<a class="lang-switch-link" {% if is_zh %}href="{{ en_path }}" hreflang="en" lang="en"{% else %}href="{{ zh_path }}" hreflang="zh-CN" lang="zh-CN"{% endif %}><svg class="lang-switch-icon" viewBox="0 0 33 26" width="20" height="16" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 10.2h28.5L24.5 4.5M30.5 15.8H2l5.8 5.7"/></svg><span>{% if is_zh %}English{% else %}中文{% endif %}</span></a>{% endcapture %}
 <div class="navigation-wrapper">
 	<div class="site-name">
 		<a href="{{ home_url }}" class="site-name-link">
-			<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="site-avatar" alt="{{ site_title }} avatar" width="48" height="48">
-			<span>{{ site_title }}</span>
+			<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="site-avatar" alt="{{ site.title }} avatar" width="48" height="48">
+			<span>{{ site.title }}</span>
 		</a>
 		<div class="mobile-social-links" aria-label="Social links">
 			{% if site.owner.email %}<a href="mailto:{{ site.owner.email }}" aria-label="Email" title="Email"><i class="icon-mail"></i></a>{% endif %}
@@ -10,6 +11,7 @@
 			{% if site.owner.linkedin %}<a href="https://linkedin.com/in/{{ site.owner.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><i class="icon-linkedin"></i></a>{% endif %}
 			{% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}" aria-label="GitHub" title="GitHub"><i class="icon-github"></i></a>{% endif %}
 			{% if site.owner.scholar %}<a href="{{ site.owner.scholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>{% endif %}
+			{% if has_translation %}{{ lang_switch }}{% endif %}
 		</div>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
@@ -19,7 +21,7 @@
             <li><a href="{{ link.url }}" {% if page_path == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
 		        {% endfor %}
 		        {% if has_translation %}
-            <li class="lang-switch"><a class="lang-switch-link" {% if is_zh %}href="{{ en_path }}" hreflang="en" lang="en"{% else %}href="{{ zh_path }}" hreflang="zh-CN" lang="zh-CN"{% endif %}><svg class="lang-switch-icon" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M1.5 5h12M10.5 2l3 3-3 3M14.5 11h-12M5.5 8l-3 3 3 3"/></svg><span>{% if is_zh %}English{% else %}中文{% endif %}</span></a></li>
+            <li class="lang-switch">{{ lang_switch }}</li>
 		        {% endif %}
 		    </ul>
 		</nav>

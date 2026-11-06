@@ -1,7 +1,10 @@
-/* Chinese typography. Loaded only on pages with lang: zh-CN, after main.css. */
+/* Chinese typography. Loaded only on pages with lang: zh-CN, after main.css.
+   Latin letters and digits keep the fonts of the English site (PT Serif for text,
+   PT Sans Narrow for headings and navigation); only Chinese characters fall through
+   to the Chinese fonts later in each stack. */
 
 /* Curly quotes, em dashes and ellipses are shared with Latin text. Without this
-   face they would come from Arial and look narrow and misplaced beside Chinese. */
+   face they would come from PT Serif and look narrow and misplaced beside Chinese. */
 @font-face {
   font-family: "ZH Punctuation";
   src: local("PingFang SC Regular"), local("PingFangSC-Regular"), local("Microsoft YaHei"), local("Noto Sans CJK SC Regular"), local("NotoSansCJKsc-Regular"), local("Source Han Sans SC Regular");
@@ -15,7 +18,10 @@
   unicode-range: U+2014, U+2018-2019, U+201C-201D, U+2026;
 }
 
-html[lang="zh-CN"],
+html[lang="zh-CN"] {
+  font-family: "ZH Punctuation", 'PT Serif', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+}
+
 html[lang="zh-CN"] h1,
 html[lang="zh-CN"] h2,
 html[lang="zh-CN"] h3,
@@ -24,7 +30,7 @@ html[lang="zh-CN"] h5,
 html[lang="zh-CN"] h6,
 html[lang="zh-CN"] .navigation-wrapper,
 html[lang="zh-CN"] .latest-news-toggle {
-  font-family: "ZH Punctuation", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  font-family: "ZH Punctuation", 'PT Sans Narrow', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
 }
 
 /* Chinese has no true italics: keep Chinese upright while English journal names
@@ -40,7 +46,7 @@ html[lang="zh-CN"] h3 {
   line-height: 1.4;
 }
 
-html[lang="zh-CN"] .navigation-wrapper a {
+html[lang="zh-CN"] .top-navigation li:not(.lang-switch) a {
   letter-spacing: 0.04em;
 }
 

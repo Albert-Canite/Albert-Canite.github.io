@@ -14,13 +14,13 @@ lang: zh-CN
 <div class="media-entry" markdown="1">
 <img src="https://albert-canite.github.io/images/Tingye_Li.png" class="media-entry-image media-entry-image-wide" width="160" height="160" alt="厉鼎毅纪念奖学金">
 <div class="media-entry-body" markdown="1">
-**2026 年 3 月：**周郅璨荣获 [2026 年 PSC 厉鼎毅纪念奖学金](https://psc-sc.org/tingye-li-memorial-scholarship-announcement-and-winners/)（Tingye Li Memorial Scholarship for Excellence in Photonics），以表彰他在集成光子计算和硬件安全领域的贡献。详情请见[相关报道](https://mp.weixin.qq.com/s/N8vARxOvMvHJVJpsnCVLfA?scene=1&click_id=3)。
+**2026 年 3 月：**Zhican 荣获 [2026 年 PSC 厉鼎毅纪念奖学金](https://psc-sc.org/tingye-li-memorial-scholarship-announcement-and-winners/)（Tingye Li Memorial Scholarship for Excellence in Photonics），以表彰他在集成光子计算和硬件安全领域的贡献。详情请见[相关报道](https://mp.weixin.qq.com/s/N8vARxOvMvHJVJpsnCVLfA?scene=1&click_id=3)。
 </div>
 </div>
 
 <br>
 
-**2022 年 6 月：**周郅璨作为南开大学优秀硕士毕业生，获学校官方宣传平台专题报道，全文请见[此处](https://mp.weixin.qq.com/s/vLy9ibk_FfDScQ36TPt18A)。他为能获此殊荣深感荣幸，也感谢南开大学给予的支持和机会。
+**2022 年 6 月：**Zhican 作为南开大学优秀硕士毕业生，获学校官方宣传平台专题报道，全文请见[此处](https://mp.weixin.qq.com/s/vLy9ibk_FfDScQ36TPt18A)。他为能获此殊荣深感荣幸，也感谢南开大学给予的支持和机会。
 
 <br>
 
