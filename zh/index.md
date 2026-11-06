@@ -4,7 +4,7 @@ permalink: /zh/index.html
 lang: zh-CN
 ---
 
-# 个人简介
+# 关于我
 
 {% include about-styles.html %}
 
