@@ -24,7 +24,7 @@ Zhican 喜欢徜徉在壮阔的群山与原野之间，于星空和海洋中感�
 
 <br>
 
-他把个人作品分享在开放图库上，可以在他的 **[Unsplash 主页](https://unsplash.com/@albert_canite)**查看。
+他把个人作品分享在开放图库上，可以在他的 [Unsplash 主页](https://unsplash.com/@albert_canite)查看。
 
 <br>
 
