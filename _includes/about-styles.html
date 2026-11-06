@@ -1,0 +1,33 @@
+<style>
+img.floatpic.profile-photo { width: 29.7%; height: auto; }
+.about-intro p { margin: 0 0 1.25em; text-indent: 1.5em; }
+.about-intro p + p { margin-top: 0; text-indent: 1.5em; }
+.site-visit-message {
+  position: relative;
+  top: 0.2em;
+  visibility: hidden;
+  opacity: 0;
+  color: #b1784f;
+  text-decoration: underline;
+  text-decoration-color: rgba(177, 120, 79, 0.65);
+  text-underline-offset: 0.16em;
+  transition: opacity 0.5s ease, top 0.5s ease;
+}
+.site-visit-message.is-loaded {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-visit-message { transition: none; }
+}
+@media only screen and (max-width:37.49em) {
+  img.floatpic.profile-photo {
+    width: 90%;
+    max-width: 198px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+</style>

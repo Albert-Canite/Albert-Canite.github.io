@@ -1,8 +1,8 @@
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="/" class="site-name-link">
-			<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="site-avatar" alt="{{ site.owner.name }} avatar" width="48" height="48">
-			<span>{{ site.title }}</span>
+		<a href="{{ home_url }}" class="site-name-link">
+			<img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="site-avatar" alt="{{ site_title }} avatar" width="48" height="48">
+			<span>{{ site_title }}</span>
 		</a>
 		<div class="mobile-social-links" aria-label="Social links">
 			{% if site.owner.email %}<a href="mailto:{{ site.owner.email }}" aria-label="Email" title="Email"><i class="icon-mail"></i></a>{% endif %}
@@ -12,13 +12,15 @@
 			{% if site.owner.scholar %}<a href="{{ site.owner.scholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>{% endif %}
 		</div>
 	</div><!-- /.site-name -->
-  {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
 	<div class="top-navigation">
 		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		    <ul>
-		        {% for link in site.links %}
-            <li><a href="{{ link.url }}" {% if url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
+		        {% for link in nav_links %}
+            <li><a href="{{ link.url }}" {% if page_path == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
 		        {% endfor %}
+		        {% if has_translation %}
+            <li class="lang-switch"><a class="lang-switch-link" {% if is_zh %}href="{{ en_path }}" hreflang="en" lang="en"{% else %}href="{{ zh_path }}" hreflang="zh-CN" lang="zh-CN"{% endif %}><svg class="lang-switch-icon" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M1.5 5h12M10.5 2l3 3-3 3M14.5 11h-12M5.5 8l-3 3 3 3"/></svg><span>{% if is_zh %}English{% else %}中文{% endif %}</span></a></li>
+		        {% endif %}
 		    </ul>
 		</nav>
 	</div><!-- /.top-navigation -->

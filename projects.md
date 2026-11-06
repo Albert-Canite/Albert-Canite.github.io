@@ -10,7 +10,7 @@ title: Projects
 <br>
 <p class="project-intro">Given the burgeoning computational demands stemming from advancements in Artificial Intelligence (AI), our research goal is strategically poised to investigate and develop cutting-edge hardware systems designed to accelerate AI computing.</p>
 
-<p class="project-intro">The main topics primarily include four areas: 1. Software-hardware co-design for optical neural network (ONN) computing systems (<em>On-going</em>). 2. Chaos-based scalable optoelectronic physical unclonable functions with AI-driven dynamic authentication (<em>On-going</em>). 3.Development of memristor-driven logic computing systems based on emerging two-dimensional materials (<em>Published, securing new collaboration opportunities</em>). 3. On-chip laser integration process and system-level applications incorporating with optical computing components.</p>
+<p class="project-intro">The main topics primarily include four areas: 1. Software-hardware co-design for optical neural network (ONN) computing systems (<em>On-going</em>). 2. Chaos-based scalable optoelectronic physical unclonable functions with AI-driven dynamic authentication (<em>On-going</em>). 3. Development of memristor-driven logic computing systems based on emerging two-dimensional materials (<em>Published, securing new collaboration opportunities</em>). 4. On-chip laser integration process and system-level applications incorporating with optical computing components.</p>
 <br>
 
 - **Software-hardware co-design for optical neural network (ONN) computing systems**

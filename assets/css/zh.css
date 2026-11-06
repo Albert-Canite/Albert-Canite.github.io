@@ -1,0 +1,89 @@
+/* Chinese typography. Loaded only on pages with lang: zh-CN, after main.css. */
+
+/* Curly quotes, em dashes and ellipses are shared with Latin text. Without this
+   face they would come from Arial and look narrow and misplaced beside Chinese. */
+@font-face {
+  font-family: "ZH Punctuation";
+  src: local("PingFang SC Regular"), local("PingFangSC-Regular"), local("Microsoft YaHei"), local("Noto Sans CJK SC Regular"), local("NotoSansCJKsc-Regular"), local("Source Han Sans SC Regular");
+  font-weight: 400;
+  unicode-range: U+2014, U+2018-2019, U+201C-201D, U+2026;
+}
+@font-face {
+  font-family: "ZH Punctuation";
+  src: local("PingFang SC Semibold"), local("PingFangSC-Semibold"), local("Microsoft YaHei Bold"), local("Noto Sans CJK SC Bold"), local("NotoSansCJKsc-Bold"), local("Source Han Sans SC Bold");
+  font-weight: 700;
+  unicode-range: U+2014, U+2018-2019, U+201C-201D, U+2026;
+}
+
+html[lang="zh-CN"],
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3,
+html[lang="zh-CN"] h4,
+html[lang="zh-CN"] h5,
+html[lang="zh-CN"] h6,
+html[lang="zh-CN"] .navigation-wrapper,
+html[lang="zh-CN"] .latest-news-toggle {
+  font-family: "ZH Punctuation", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+}
+
+/* Chinese has no true italics: keep Chinese upright while English journal names
+   and paper titles use the real italic face of the Latin font. */
+html[lang="zh-CN"] {
+  font-synthesis: weight;
+}
+
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3 {
+  letter-spacing: 0.03em;
+  line-height: 1.4;
+}
+
+html[lang="zh-CN"] .navigation-wrapper a {
+  letter-spacing: 0.04em;
+}
+
+html[lang="zh-CN"] .article-wrap,
+html[lang="zh-CN"] .footer-wrap h6 {
+  line-height: 1.85;
+}
+
+/* inter-word justification would not stretch the gaps between Chinese characters. */
+html[lang="zh-CN"] .article-wrap p,
+html[lang="zh-CN"] .article-wrap li {
+  text-justify: auto;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  line-break: strict;
+  text-autospace: normal;
+}
+
+/* On phones, justifying around long unbreakable English titles leaves wide gaps
+   between Chinese characters, so Chinese text is left-aligned there. */
+@media only screen and (max-width:37.49em) {
+  html[lang="zh-CN"] .article-wrap p,
+  html[lang="zh-CN"] .article-wrap li {
+    text-align: left !important;
+  }
+}
+
+/* The conventional first-line indent for Chinese is two characters. */
+html[lang="zh-CN"] .about-intro p,
+html[lang="zh-CN"] .about-intro p + p,
+html[lang="zh-CN"] .article-wrap p + p {
+  text-indent: 2em;
+}
+
+/* Publication lists stay in English and keep the same look as the English site. */
+html[lang="zh-CN"] .article-wrap [lang="en"] {
+  font-family: 'PT Serif', serif;
+  line-height: 1.6;
+}
+html[lang="zh-CN"] .article-wrap [lang="en"] li {
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}

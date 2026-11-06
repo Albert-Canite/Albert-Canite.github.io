@@ -45,6 +45,22 @@ links:
   - title: Life
     url: /life/
 
+# Chinese version of the site (pages under /zh/ with lang: zh-CN)
+title_zh: 周郅璨
+links_zh:
+  - title: 关于我
+    url: /zh/
+  - title: 个人经历
+    url: /zh/biography/
+  - title: 学术成果
+    url: /zh/publications/
+  - title: 研究项目
+    url: /zh/projects/
+  - title: 荣誉奖项
+    url: /zh/honors/
+  - title: 生活
+    url: /zh/life/
+
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing

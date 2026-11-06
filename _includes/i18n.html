@@ -1,0 +1,25 @@
+{% comment %}
+  Language context for the English and Chinese versions of the site.
+  Included once at the top of head.html; the variables stay available to the
+  navigation and footer. A page is Chinese when its front matter has lang: zh-CN.
+  Its English counterpart has the same path without the /zh prefix, and the
+  language switch only appears on pages listed in site.links.
+{% endcomment %}
+{% capture page_path %}{{ page.url | remove:'index.html' }}{% endcapture %}
+{% if page.lang == 'zh-CN' %}
+  {% assign is_zh = true %}
+  {% assign site_title = site.title_zh %}
+  {% assign home_url = '/zh/' %}
+  {% assign nav_links = site.links_zh %}
+  {% assign en_path = page_path | remove_first: '/zh' %}
+  {% assign zh_path = page_path %}
+{% else %}
+  {% assign is_zh = false %}
+  {% assign site_title = site.title %}
+  {% assign home_url = '/' %}
+  {% assign nav_links = site.links %}
+  {% assign en_path = page_path %}
+  {% assign zh_path = '/zh' | append: page_path %}
+{% endif %}
+{% assign has_translation = false %}
+{% for link in site.links %}{% if link.url == en_path %}{% assign has_translation = true %}{% endif %}{% endfor %}

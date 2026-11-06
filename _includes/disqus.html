@@ -3,6 +3,7 @@
     var disqus_config = function () {
       this.page.url = "https://zhican.com/blogs/";
       this.page.identifier = "https://zhican.com/blogs/";
+      {% if page.lang == 'zh-CN' %}this.language = "zh";{% endif %}
     };
 
     // You should be able to get the following lines of code from your Disqus admin.
@@ -18,7 +19,7 @@
     })();
   </script>
   <noscript>
-    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    {% if page.lang == 'zh-CN' %}请启用 JavaScript 以查看 <a href="https://disqus.com/?ref_noscript">Disqus 评论</a>。{% else %}Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>{% endif %}
   </noscript>
 
 

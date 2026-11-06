@@ -4,39 +4,7 @@ layout: page
 
 # About Me
 
-<style>
-img.floatpic.profile-photo { width: 29.7%; height: auto; }
-.about-intro p { margin: 0 0 1.25em; text-indent: 1.5em; }
-.about-intro p + p { margin-top: 0; text-indent: 1.5em; }
-.site-visit-message {
-  position: relative;
-  top: 0.2em;
-  visibility: hidden;
-  opacity: 0;
-  color: #b1784f;
-  text-decoration: underline;
-  text-decoration-color: rgba(177, 120, 79, 0.65);
-  text-underline-offset: 0.16em;
-  transition: opacity 0.5s ease, top 0.5s ease;
-}
-.site-visit-message.is-loaded {
-  top: 0;
-  visibility: visible;
-  opacity: 1;
-}
-@media (prefers-reduced-motion: reduce) {
-  .site-visit-message { transition: none; }
-}
-@media only screen and (max-width:37.49em) {
-  img.floatpic.profile-photo {
-    width: 90%;
-    max-width: 198px;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-}
-</style>
+{% include about-styles.html %}
 
 <div class="about-intro" markdown="1">
 
@@ -90,7 +58,7 @@ Congratulations to Zhican on successfully defending his Ph.D. dissertation in El
 
 - **May. 2026**
 
-Congratulations to Zhican on the publication of his paper, [_“Chaos-based scalable optoelectronic physical unclonable functions with AI-driven dynamic authentication,”_](https://www.nature.com/articles/s41928-026-01627-y) in Nature Electronics. The paper is now available online, presenting a scalable optoelectronic hardware security system with AI-driven dynamic authentication.
+Congratulations to Zhican on the publication of his paper, [_“Physical unclonable functions based on chaotic vertical-cavity surface-emitting lasers for dynamic authentication,”_](https://www.nature.com/articles/s41928-026-01627-y) in Nature Electronics. The paper is now available online, presenting a scalable optoelectronic hardware security system with AI-driven dynamic authentication.
 
 <br>
 
@@ -110,49 +78,43 @@ Zhican’s paper, [_“Integrated quantum dot lasers for parallelized photonic e
 
 - **July. 2025**
 
-The project _“Broadband Photonics with Quantum Dot Driven Lithium Niobate Integrated Circuits”_ was awarded a Competitive Research Grant (CRG) from KAUST, receiving a total funding of US$100K. Zhican serves as a primary student contributor, collaborating with [Cheng’s Lab](https://www.ee.cityu.edu.hk/~cwang/index.htm) in CUHK on the development of LN-based photonic computing technologies within the project.
+The project _“Broadband Photonics with Quantum Dot Driven Lithium Niobate Integrated Circuits”_ was awarded a Competitive Research Grant (CRG) from KAUST, receiving a total funding of US$765,000. Zhican serves as a primary student contributor, collaborating with [Cheng’s Lab](https://www.ee.cityu.edu.hk/~cwang/index.htm) in CityU on the development of LN-based photonic computing technologies within the project.
 
 <br>
 
 - **May. 2025**
 
-Zhican delivered an oral presentation titled [_“Deep Learning-Enhanced Dynamic Photonic Security System Using Multimode VCSELs”_](https://ieeexplore.ieee.org/abstract/document/10728674/authors#authors) at the Conference on Lasers and Electro-Optics (CLEO) 2025 in Long Beach, CA.
+Zhican delivered an oral presentation titled [_“Deep Learning-Enhanced Dynamic Photonic Security System Using Multimode VCSELs”_](https://doi.org/10.1364/cleo_si.2025.ss126_3) at the Conference on Lasers and Electro-Optics (CLEO) 2025 in Long Beach, CA.
 
 <br>
 
 - **Feb. 2025**
 
-The project _“Unlocking AI Acceleration: Integrated Silicon Photonics with Quantum Dot Lasers,”_ funded by a US$350,000 Basic Science Grant (BSG) from the Research Development and Innovation Authority (RDIA) of Saudi Arabia, was selected for exhibition at the “2025 Future Economy Innovation Week” in Riyadh. Zhican represented the team as the student delegate and demonstrated the project’s prototype system at the “Research Exploration” showcase.
+The project _“Unlocking AI Acceleration: Integrated Silicon Photonics with Quantum Dot Lasers,”_ funded by a US$350,000 Basic Science Grant (BSG) from the Research Development and Innovation Authority (RDIA) of Saudi Arabia, was selected for exhibition at the “2025 Future Economic Innovation Week” in Riyadh. Zhican represented the team as the student delegate and demonstrated the project’s prototype system at the “Research Exploration” showcase.
 
 <br>
 
 - **Sep. 2024**
 
-Zhican commenced a 3-month research visit at the [Photonic Chip and Information System Innovation Center (PCISIC)](pcis.pku.edu.cn) at Peking University, working on packaging and high-speed testing of photonic computing systems.
+Zhican commenced a 3-month research visit at the [Photonic Chip and Information System Innovation Center (PCISIC)](http://pcis.pku.edu.cn) at Peking University, working on packaging and high-speed testing of photonic computing systems.
 
 <br>
 
 - **May. 2024**
 
-Zhican delivered an oral presentation titled [_“On-Chip Quantum Dot Lasers Driven High-Speed Optical Neural Networks”_](https://ieeexplore.ieee.org/abstract/document/10728674/authors#authors) at the Conference on Lasers and Electro-Optics (CLEO) 2024 in Charlotte, NC.
+Zhican delivered an oral presentation titled [_“On-Chip Quantum Dot Lasers Driven High-Speed Optical Neural Networks”_](https://doi.org/10.1364/cleo_si.2024.sw3h.1) at the Conference on Lasers and Electro-Optics (CLEO) 2024 in Charlotte, NC.
 
 <br>
 
 - **Apr. 2024**
 
-Zhican began a 2-month research visit at the [UT Design Automation Laboratory](cerc.utexas.edu/utda) at UT Austin, focusing on hardware-aware algorithm co-design for optical computing systems.
-
-<br>
-
-- **Sep. 2023**
-
-Congratulations to our project titled _"Fast and Energy-efficient Photonic Integrated Circuits Powered by Quantum Dot Lasers for Artificial Intelligence Models"_ for successfully securing $200k from the KAUST-Opportunity Fund Program (Collaboration with UT Austin). Technical specifics were fully completed by Zhican, who is appointed as the principal student responsible for managing and implementing the project.
+Zhican began a 2-month research visit at the [UT Design Automation Laboratory](https://www.cerc.utexas.edu/utda) at UT Austin, focusing on hardware-aware algorithm co-design for optical computing systems.
 
 <br>
 
 - **Jul. 2023** 
 
-Congratulations to our project _"Optoelectronic Hardware Acceleration for Variational Autoencoder"_ for obtaining $50k in support from the [Saudi Center of Excellence in Data Science and Artificial Intelligence (SDAIA)](https://sdaia.gov.sa/en/default.aspx). Zhican serves as the student leader of the program.
+Congratulations to our project _"Optoelectronic Hardware Acceleration for Variational Autoencoder"_ for obtaining US$53,320 in support from the [Saudi Center of Excellence in Data Science and Artificial Intelligence (SDAIA)](https://sdaia.gov.sa/en/default.aspx). Zhican serves as the student leader of the program.
 
 <br>
 
