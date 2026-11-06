@@ -1,4 +1,4 @@
-{% capture lang_switch %}<a class="lang-switch-link" {% if is_zh %}href="{{ en_path }}" hreflang="en" lang="en"{% else %}href="{{ zh_path }}" hreflang="zh-CN" lang="zh-CN"{% endif %}><svg class="lang-switch-icon" viewBox="0 0 33 26" width="20" height="16" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 10.2h28.5L24.5 4.5M30.5 15.8H2l5.8 5.7"/></svg><span>{% if is_zh %}English{% else %}中文{% endif %}</span></a>{% endcapture %}
+{% capture lang_switch %}<a class="lang-switch-link" {% if is_zh %}href="{{ en_path }}" hreflang="en" lang="en"{% else %}href="{{ zh_path }}" hreflang="zh-CN" lang="zh-CN"{% endif %}><svg class="lang-switch-icon" viewBox="0 0 24 26" width="15" height="16" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 10.2h20L16 4.5M22 15.8H2l6 5.7"/></svg><span>{% if is_zh %}English{% else %}中文{% endif %}</span></a>{% endcapture %}
 <div class="navigation-wrapper">
 	<div class="site-name">
 		<a href="{{ home_url }}" class="site-name-link">

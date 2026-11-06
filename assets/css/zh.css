@@ -33,6 +33,38 @@ html[lang="zh-CN"] .latest-news-toggle {
   font-family: "ZH Punctuation", 'PT Sans Narrow', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
 }
 
+/* The site name and contact links are shared English content: identical to the English site. */
+html[lang="zh-CN"] .site-name {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+html[lang="zh-CN"] .article-author-top {
+  font-family: 'PT Serif', serif;
+}
+
+/* Chinese characters fill their whole em box and look larger than Latin letters at
+   the same font size, so desktop text and headings are scaled down a little. Phones
+   already use a smaller size. English lists are scaled back to the English site's size. */
+@media only screen and (min-width:37.5em) {
+  html[lang="zh-CN"] .article-wrap {
+    font-size: 0.94em;
+  }
+  html[lang="zh-CN"] .article-wrap h1 {
+    font-size: 2.6rem;
+  }
+  html[lang="zh-CN"] .article-wrap h2 {
+    font-size: 1.7rem;
+  }
+  html[lang="zh-CN"] .article-wrap h3 {
+    font-size: 1.2rem;
+  }
+  html[lang="zh-CN"] .article-wrap [lang="en"] {
+    font-size: 1.0638em;
+  }
+  html[lang="zh-CN"] .top-navigation li:not(.lang-switch) a {
+    font-size: 0.94em;
+  }
+}
+
 /* Chinese has no true italics: keep Chinese upright while English journal names
    and paper titles use the real italic face of the Latin font. */
 html[lang="zh-CN"] {

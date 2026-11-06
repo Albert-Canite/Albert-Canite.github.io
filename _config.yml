@@ -47,7 +47,7 @@ links:
 
 # Chinese version of the site (pages under /zh/ with lang: zh-CN)
 links_zh:
-  - title: 个人简介
+  - title: 简介
     url: /zh/
   - title: 个人经历
     url: /zh/biography/
